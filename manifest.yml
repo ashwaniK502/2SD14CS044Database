@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: 2SD14CS044Database
+  host: 2SD14CS044Database
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-u6
